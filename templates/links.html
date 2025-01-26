@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Image Download</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
   </head>
   <body>
-    <h1>Download</h1>
-    <ul>
-      {% for b in blog %}
-      <li>
-        <a href="{{ b }}">
-          <img src="{{ b }}" />
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
+    <div class="photoLink-container">
+      <div class="photoLink">
+        {% for b in blog %}
+        <div class="photoLink--photo">
+          <a href="{{ b }}"><img src="{{ b }}" /></a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
   </body>
 </html>

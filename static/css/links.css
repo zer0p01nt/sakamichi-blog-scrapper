@@ -1,0 +1,21 @@
+@import "./reset.css";
+
+.photoLink-container {
+  width: 95%;
+  margin: 0 auto;
+}
+.photoLink {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.photoLink--photo {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.photoLink--photo img {
+  width: 100%;
+}

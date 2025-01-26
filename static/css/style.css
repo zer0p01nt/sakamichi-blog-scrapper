@@ -1,0 +1,81 @@
+@import "./links.css";
+@import "./reset.css";
+
+* {
+  text-align: center;
+}
+
+.home {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-title {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.home-mini-title {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.home-btn-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home-btn {
+  width: 30vw;
+  height: 100px;
+  box-shadow: none;
+  border-radius: 5%;
+}
+
+.NogiBtn {
+  background-color: #742b7f;
+  color: white;
+  border: none;
+}
+
+.SakuBtn {
+  background-color: white;
+  color: #e6a2b6;
+  border-color: #e6a2b6;
+}
+
+.HinaBtn {
+  background-color: #75bde1;
+  color: #751880;
+  border: none;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.detail {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detail-title {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.goBtn {
+  margin-left: 10px;
+}
